@@ -1,0 +1,42 @@
+body{
+    color: rgb(26, 11, 46);background-color: #1A0B2E;
+}
+.navbar{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 16px 0 ;
+}
+.nav-logo{
+    color: white;
+    font-size: 30px;
+    /* margin-top:16px ; */
+    font-weight: bold;
+}
+.logo-color{
+    color:rgb(199, 4, 212) ;
+}
+.nav-navbar ul{
+    display: flex;
+    gap: 20px;
+    
+
+}
+.nav-navbar ul li{
+    list-style: none;
+}
+.nav-navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-btn{
+    font-size: 22px;
+    padding: 10px 25px;
+    background-color:rgb(199, 4, 212);
+    border-radius: 40px;
+    color: white;
+}
+hr{
+    opacity: calc(0.3);
+}
