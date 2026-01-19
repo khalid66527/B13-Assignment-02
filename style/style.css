@@ -30,6 +30,10 @@ body{
     text-decoration: none;
     color: white;
 }
+.primary, .nav-btn{
+    background: linear-gradient(90deg, #ff4ecd, #ffb347);
+    color: white;
+}
 .nav-btn{
     font-size: 22px;
     padding: 10px 25px;
@@ -41,8 +45,76 @@ hr{
     opacity: calc(0.3);
 }
 
+.banner{
+    background-image: url(../image/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+}
+
+.banner-inner{
+    max-width: 1340px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.banner-logo{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto 30px;
+}
+
+.banner-logo .bg-img{
+    width: 100%;
+    display: block;
+}
+
+.banner-logo .top-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+}
+.banner-logo .my-chalage{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    background: #00ff99;
+    color: #000;
+    font-size: 16px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.banner-title{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.banner-text{
+    font-size: 18px;
+    opacity: 0.75;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.banner-btn{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.secondary{
+    background: transparent;
+    border: 1px solid #00ff99;
+    color: #00ff99;
+}
 /* About section */
-.About{
+.About, .banner-container{
     color: white;
     max-width: 77%;
     width: 1340px;
@@ -53,11 +125,11 @@ hr{
     color: white;
     margin: 50px 0 50px;
 }
-.About-container h2{
+.About-container h2, .banner-title{
     font-size: 48px;
     
 }
-.About-container p{
+.About-container p, .banner-text{
     font-size: 18px;
     opacity: 0.7;
     line-height: 38px;
@@ -67,8 +139,6 @@ hr{
     display: flex;
     justify-content: space-evenly;
     gap: 80px;
-    /* justify-items: center; */
-    /* align-items: center; */
     text-align: center;
     margin: 50px 0;
 }
@@ -83,5 +153,4 @@ hr{
     font-size: 18px;
     opacity:0.7;
     /* margin-top: 16px; */
-
 }
