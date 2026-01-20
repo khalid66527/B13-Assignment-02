@@ -215,3 +215,69 @@ hr{
     line-height: 26px;
     opacity: 0.7;
 }
+/* Episodes=container */
+.Episodes-container{
+    color: white;
+}
+.Featured{
+    margin-top: 120px;
+}
+.Episodes{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1340px;
+    width: 77%;
+    margin: 0 auto;
+    gap: 30px;
+    
+    
+}
+.Episodes-card{
+    background-color: #230E3D;
+    border-radius: 20PX;
+    max-width: 77%;
+
+}
+.Episodes-card iframe{
+    border-radius: 20PX 20PX 0 0 ;
+}
+.Episodes-card h4{
+    font-size: 1.5rem ;
+    margin-left: 15px;
+}
+.Episodes-card p{
+    font-size: 1rem ;
+    margin-left: 15px;
+    opacity: .7;
+    margin-bottom: 22px;
+}
+.Episodes-card span{
+    color: #00FF88;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.Episodes-card{
+
+}
+/* Meet the Host */
+.Host{
+    display: flex;
+    max-width: 77%;
+    width: 1340px;
+    gap: 30px;
+    margin: 0 auto;
+    background-color: #230E3D;
+    padding: 50px;
+    border-radius: 20px;
+}
+.Host h3{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.Host p {
+    opacity: .7;
+    line-height: 28px;
+}
+.Host img{
+    margin-right: 16px;
+}
