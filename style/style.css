@@ -173,33 +173,33 @@ hr{
     padding: 25px;
     border-radius: 15px;
     color: white;
-    /* box-shadow: 0 4px 10px #301452; */
 }
 .TechWave-1{
-     grid-area: TechWave-1;
-     }
+    grid-area: TechWave-1;
+}
 .TechWave-2{ 
     grid-area: TechWave-2;
- }
+}
 .TechWave-3{ 
     grid-area: TechWave-3;
- }
-.TechWave-4{ 
-    grid-area: TechWave-4;
- }
-.TechWave-5{ 
-    grid-area: TechWave-5;
- }
+}
+.TechWave-4{
+     grid-area: TechWave-4;
+}
+.TechWave-5{
+     grid-area: TechWave-5;
+    }
 .TechWave-container{
     max-width: 1340px;
     width: 77%;
     margin: 0 auto;
     display: grid;
     gap: 25px;
+    grid-template-columns: repeat(6, 1fr);
     grid-template-areas: 
-        "TechWave-1 TechWave-2 TechWave-2"
-        "TechWave-1 TechWave-3 TechWave-3"
-        "TechWave-4 TechWave-4 TechWave-5";
+        "TechWave-1 TechWave-1 TechWave-2 TechWave-2  TechWave-2 TechWave-2"
+        "TechWave-1 TechWave-1 TechWave-3 TechWave-3  TechWave-3 TechWave-3"
+        "TechWave-4 TechWave-4 TechWave-4 TechWave-4  TechWave-5 TechWave-5";
 }
 
 .TechWave-container img{
@@ -318,7 +318,16 @@ hr{
     margin-bottom: 25px;
     opacity: 0.7;
 }
+.socile-media img{
+    color: white;
+}
 .footer-text{
     font-size: 14px;
     opacity: 0.7;
+}
+.hiddet{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    
 }
