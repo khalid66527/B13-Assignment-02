@@ -18,7 +18,10 @@ body{
     font-weight: bold;
 }
 .logo-color{
-    color:rgb(199, 4, 212) ;
+    background: linear-gradient(90deg, #ff4ecd, #ffb347);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .nav-navbar ul{
     display: flex;
@@ -255,9 +258,7 @@ hr{
     font-size: 18px;
     margin-left: 15px;
 }
-.Episodes-card{
 
-}
 /* Meet the Host */
 .Host{
     display: flex;
@@ -266,7 +267,7 @@ hr{
     gap: 30px;
     margin: 0 auto;
     background-color: #230E3D;
-    padding: 50px;
+    padding: 10px;
     border-radius: 20px;
 }
 .Host h3{
@@ -277,8 +278,8 @@ hr{
     opacity: .7;
     line-height: 28px;
 }
-.Host img{
-    margin-right: 16px;
+.host-img{
+    margin: 30px;
 }
 /* footer section  */
  .footer{
@@ -305,11 +306,14 @@ hr{
     font-weight: 700;
     margin-bottom: 20px;
 }
-.footer-logo span{
+
+ .footer-logo span{
     background: linear-gradient(90deg, #ff4ecd, #ffb347);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 .socile-media{
     display: flex;
     justify-content: center;
@@ -392,6 +396,7 @@ hr{
     text-align: center;
     width: 95%;
     gap: 30px;  
+    overflow: hidden;
     }
     .Featured{
     margin-top: 60px;
@@ -447,8 +452,7 @@ hr{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 0;
-        font-size: 14px;
+
     }
     .socile-media p img {
         margin-right: 8px;
